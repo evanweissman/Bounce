@@ -58,9 +58,6 @@ public class NanoBounce {
 		if(x != 0 && (y == 1 || y == 6)) {
 			System.out.print(BELL);
 		}
-		
 		Thread.sleep(delay);
 	}
-
-
 }
