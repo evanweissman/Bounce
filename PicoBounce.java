@@ -7,7 +7,7 @@ public class PicoBounce {
 		System.out.print("\u001b[2J"+ "\u001b[1m" + "\u001b[?25l" + "\u001b[H" + "\n\n================================\n\n\n\n\n\n\n================================" + "\u001b[H");
 		for(int i = -2; i < y; i++) System.out.println(); 
 		for(int j = 0; j < x; j++) System.out.print(" "); 
-		if(x == 0 && y == 0 || y == 5) System.out.print("\u0007"); 
+		if(x != 0 && (y == 0 || y == 5)) System.out.print("\u0007"); 
 		System.out.print("O");
 		Thread.sleep(100);
 	}
