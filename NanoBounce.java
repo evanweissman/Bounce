@@ -1,6 +1,5 @@
 public class NanoBounce {
     static String CLS = "\u001b[2J";
-    static String HOME = "\u001b[H";
     static String BOLD = "\u001b[1m";
     static String BELL="\u0007"; //in Windows 10, this plays the "Critical Stop" system sound. I set mine to https://www.wavsource.com/snds_2020-10-01_3728627494378403/sfx/phasesr2.wav
     static String HIDE_CURSOR="\u001b[?25l";
